@@ -18,10 +18,10 @@ namespace BusinessLogic
             _objA = objA;
         }
 
-        public int Izracunaj_Z(int x, int y, int w)
+        public int Azuriraj_Z()
         {
             //Proizvoljna logika koja ovisi o parametrima x, y, w.
-            return x + y + w;
+            return _objA.X + _objA.Y + W;
         }
     }
 }

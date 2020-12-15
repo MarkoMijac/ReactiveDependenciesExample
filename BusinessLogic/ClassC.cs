@@ -18,15 +18,15 @@ namespace BusinessLogic
             _objB = objB;
         }
 
-        public int Izracunaj_Q(int w, int z, int p)
+        public int Azuriraj_Z()
         {
-            if (w > 10)
+            if (_objB.W > 10)
             {
                 return 10;
             }
             else
             {
-                return w + z + p;
+                return _objB.W + _objB.Z + P;
             }
         }
     }

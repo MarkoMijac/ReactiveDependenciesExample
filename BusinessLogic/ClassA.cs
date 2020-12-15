@@ -24,10 +24,10 @@ namespace BusinessLogic
             set { _y = value; }
         }
 
-        public int Izracunaj_Y(int x)
+        public int Azuriraj_Y()
         {
             //Proizvoljna logika
-            return x * 2;
+            return X * 2;
         }
     }
 }
