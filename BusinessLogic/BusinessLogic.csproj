@@ -31,6 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ReframeBaseExceptions">
+      <HintPath>..\..\..\..\Documents\REFRAME_DISTRIBUTION\Dlls\ReframeBaseExceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="ReframeCore">
+      <HintPath>..\..\..\..\Documents\REFRAME_DISTRIBUTION\Dlls\ReframeCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ReframeFluentAPI">
+      <HintPath>..\..\..\..\Documents\REFRAME_DISTRIBUTION\Dlls\ReframeFluentAPI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

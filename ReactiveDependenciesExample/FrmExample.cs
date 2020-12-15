@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ReactiveDependenciesExample
 {
-    public partial class Form1 : Form
+    public partial class FrmExample : Form
     {
-        public Form1()
+        public FrmExample()
         {
             InitializeComponent();
+        }
+
+        private void FrmExample_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
